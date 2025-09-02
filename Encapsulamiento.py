@@ -15,3 +15,6 @@ print(objeto._hablar())
 
 #Encapsulamiento cuyo propósito es ocultar el estado interno de un objeto y protegerlo del
 # acceso no autorizado o modificación directa desde fuera del objeto
+
+#Cual es la diferencia entre el guión y doble guión bajo para el encapsulamiento?
+print("Cual es la diferencia entre el guión y doble guión bajo para el encapsulamiento?")
