@@ -19,15 +19,15 @@ class Mamifero(Animal):
 
 
 # Herencia múltiple: Murciélago hereda de Mamífero y Ave
-class Murcielago(Mamifero, Ave):
+class Murcielago1(Mamifero, Ave):
     pass
 
 # Prueba de los métodos y el orden de resolución
-murcielago = Murcielago()
+murcielago1 = Murcielago1()
 
-murcielago.comer()        # Heredado de Animal
-murcielago.amamantar()    # Método de Mamífero
-murcielago.volar()        # Método de Ave
+murcielago1.comer()        # Heredado de Animal
+murcielago1.amamantar()    # Método de Mamífero
+murcielago1.volar()        # Método de Ave
 
 # Cambiando orden de herencia y observando el efecto
 class Murcielago2(Ave, Mamifero):
@@ -43,4 +43,5 @@ ave=Ave()
 ave.comer()
 ave.volar()
 
-print(Murcielago.mro())
+print(Murcielago1.mro())
+print(Murcielago2.mro())
